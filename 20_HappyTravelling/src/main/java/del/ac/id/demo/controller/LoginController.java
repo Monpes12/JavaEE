@@ -41,6 +41,6 @@ bindingResult, Model model) {
  	}
 		model.addAttribute("user", user);
 		userRepository.save(user);
-		return "redirect:login";
+		return "redirect:index";
 	}
 }
